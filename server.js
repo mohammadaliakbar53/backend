@@ -100,12 +100,12 @@ async function queryOpenRouter(messages, formatJson = false, customKey = null) {
   if (!key) return null;
   try {
     const controller = new AbortController();
-    // Fast 2.8s timeout: Never keep the farmer waiting; fallback immediately to local PyTorch
-    const timer = setTimeout(() => controller.abort(), 2800);
+    // 25s timeout: Give OpenRouter enough time for Llama 3.3 70B responses
+    const timer = setTimeout(() => controller.abort(), 25000);
     const body = {
       model: openRouterModel,
       messages: messages,
-      max_tokens: formatJson ? 450 : 250,
+      max_tokens: formatJson ? 600 : 500,
       temperature: 0.2,
     };
     if (formatJson) {
