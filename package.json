@@ -1,0 +1,16 @@
+{
+  "name": "sindh-smart-farmer-ai",
+  "version": "1.0.0",
+  "description": "AI-powered farming assistant for small-scale farmers in Sindh, Pakistan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.4.5"
+  }
+}

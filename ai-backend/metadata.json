@@ -1,0 +1,192 @@
+{
+  "model_name": "SindhAgriNet-PyTorch-v1.0",
+  "parameters": 775706,
+  "epochs": 25,
+  "final_loss": 0.0004,
+  "final_accuracy": 100.0,
+  "disease_classes": [
+    "Cotton Leaf Curl Virus (CLCuV)",
+    "Rice Blast (Pyricularia oryzae)",
+    "Sugarcane Red Rot (Colletotrichum falcatum)",
+    "Wheat Yellow/Stripe Rust (Puccinia striiformis)",
+    "Chilli Leaf Curl & Anthracnose",
+    "Tomato Early & Late Blight",
+    "Mango Blossom Malformation",
+    "Healthy Crop / Good Agronomy"
+  ],
+  "intent_classes": [
+    "diagnosis",
+    "treatment",
+    "prevention",
+    "fertilizer",
+    "irrigation",
+    "general_advice"
+  ],
+  "crop_classes": [
+    "Cotton",
+    "Rice",
+    "Sugarcane",
+    "Wheat",
+    "Chilli",
+    "Tomato",
+    "Mango",
+    "General"
+  ],
+  "languages": [
+    "English",
+    "Urdu",
+    "Sindhi"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 2.8799,
+      "disease_accuracy": 50.6,
+      "intent_accuracy": 73.51
+    },
+    {
+      "epoch": 2,
+      "loss": 0.2484,
+      "disease_accuracy": 98.21,
+      "intent_accuracy": 96.43
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0177,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0064,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0041,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 6,
+      "loss": 0.0024,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0017,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 8,
+      "loss": 0.0016,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0011,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 10,
+      "loss": 0.0011,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 11,
+      "loss": 0.001,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0008,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 13,
+      "loss": 0.0008,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 14,
+      "loss": 0.0006,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 15,
+      "loss": 0.0008,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 16,
+      "loss": 0.0007,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 17,
+      "loss": 0.0005,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 18,
+      "loss": 0.0005,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 19,
+      "loss": 0.0005,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 20,
+      "loss": 0.0004,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 21,
+      "loss": 0.0005,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 22,
+      "loss": 0.0012,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 23,
+      "loss": 0.0005,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 24,
+      "loss": 0.0004,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    },
+    {
+      "epoch": 25,
+      "loss": 0.0004,
+      "disease_accuracy": 100.0,
+      "intent_accuracy": 100.0
+    }
+  ]
+}

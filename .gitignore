@@ -1,0 +1,5 @@
+node_modules/
+uploads/
+.env
+__pycache__/
+*.pyc
